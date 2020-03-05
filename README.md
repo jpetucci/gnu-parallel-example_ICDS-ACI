@@ -19,5 +19,5 @@ The list of tasks (given in task_list.txt) are simple R benchmarkme runs defined
 Usage:
 1. Clone the repo to ICDS-ACI  
 2. cd into repo  
-3. Edit job_script.pbs to point to your conda environment  
+3. Edit jobscript.pbs to point to your conda environment  
 4. Submit the job script (qsub jobscript.pbs)  
