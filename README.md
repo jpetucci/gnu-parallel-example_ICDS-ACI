@@ -5,11 +5,11 @@ This repo contains an example for using GNU parallel (gnu.org/software/parallel/
 Requirements:
 A conda environment that contains R with the benchmarkme library and the latest version of gnu parallel.
 To create this on ICDS-ACI follow the steps below:
-$ module purge && module load python/3.6.3-anaconda5.0.1
-$ conda create -n myenv -y
-$ source activate myenv
-$ conda install -c conda-forge r-benchmarkme
-$ conda install -c conda-forge parallel
+$ module purge && module load python/3.6.3-anaconda5.0.1  
+$ conda create -n myenv -y  
+$ source activate myenv  
+$ conda install -c conda-forge r-benchmarkme  
+$ conda install -c conda-forge parallel  
 
 
 Summary:
